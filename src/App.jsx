@@ -1,13 +1,15 @@
 import "./App.css";
-import PropsPratices from "./components/PropsPractices";
+// import PropsPratices from "./components/PropsPractices";
+import HelloWorld from "./components/HelloWord";
 
 function App() {
-  const arr = ["Cancel", "Delete", "Upload", "Submit", "Update"];
+  // const arr = ["Cancel", "Delete", "Upload", "Submit", "Update"];
   return (
     <div className="App">
-      {arr.map((item, index) => (
+      {/* {arr.map((item, index) => (
         <PropsPratices value={item} key={index} />
-      ))}
+      ))} */}
+      <HelloWorld />
     </div>
   );
 }
